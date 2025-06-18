@@ -7,8 +7,9 @@ import Login from './Login';
 import Navbar from './Navbar';
 import Explore from './Explore';
 import Signup from './Signup';
+import Cart from './Cart';
  const App = () => {
-   return (
+   return (   
      <div>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -18,6 +19,7 @@ import Signup from './Signup';
         <Route path="/navbar" element={<Navbar/>}/>
         <Route path="/explore" element={<Explore/>}/>
         <Route path="/signup" element={<Signup/>}/>
+        <Route path="/cart" element={<Cart/>}/>
         </Routes>
      </div>
    )

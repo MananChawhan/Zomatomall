@@ -42,6 +42,12 @@ const Home = () => {
         >
           Explore Now 🚀
         </Link>
+        <Link
+          to="/cart"
+          className="m-4 bg-purple-600 hover:bg-purple-700 text-white text-lg font-semibold px-8 py-3 rounded-full shadow-md transition-all"
+        >
+          Most Visited Customers 😍
+        </Link>
       </section>
     </>
   );
