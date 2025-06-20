@@ -48,7 +48,7 @@ const  Cart =()=>{
             hostelName="Milkha Bhavan"
             spendings="40000"
             />
-             <Card imageurl="https://randomuser.me/api/portraits/men/11.jpg "
+             <Card imageurl="https://cdn.pixabay.com/photo/2024/04/26/09/11/picture-8721442_1280.jpg"
             StudentName="Ajay jayaswal"
             StudentAge="22"
             hostelName="Kalam Bhavan"
