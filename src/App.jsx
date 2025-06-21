@@ -15,6 +15,11 @@ import ArtGallery from './ArtGallery';
 import Emoji from './Emoji';
 import FormValidation from './Formvalidation';
 import UseEffect from './UseEffect';
+import AutoRefreshclock from './AutoRefreshClock';
+import FormAutoSaver from './FormAutoSaver';
+import NavbarForUseEffect from './NavbarForUseEffect';
+import Online from './Online';
+import AutoDarkMode from './AutoDarkMode';
  const App = () => {
    return (   
      <div>
@@ -34,6 +39,11 @@ import UseEffect from './UseEffect';
         <Route path="/emoji" element={<Emoji/>}/>
         <Route path="/form" element={<FormValidation/>}/>
         <Route path="/effect" element={<UseEffect/>}/>
+        <Route path="/clock" element={<AutoRefreshclock/>}/>
+        <Route path="/Naveffect" element={<NavbarForUseEffect/>}/>
+        <Route path="/autosaver" element={<FormAutoSaver/>}/>
+        <Route path="/online" element={<Online/>}/>
+        <Route path="/autodark" element={<AutoDarkMode/>}/>
         </Routes>
      </div>
    )
